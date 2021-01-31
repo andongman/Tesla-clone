@@ -1,0 +1,32 @@
+.header{
+    display:flex;
+    width:100vw;
+    position:fixed;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px;
+    font-size:14px;
+}
+
+.header .header__icon>img{
+    height:20px;
+    margin-left:10px;
+}
+.header__menu__center{
+    display:flex;
+}
+
+.header__menu__center>p{
+    margin:18px;
+    text-transform:uppercase;
+}
+
+.header__menu__right{
+    display:flex;
+    margin-right:30px;
+}
+
+.header__menu__right>p{
+    margin:10px;
+    text-transform:uppercase;
+}
