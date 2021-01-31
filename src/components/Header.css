@@ -2,10 +2,16 @@
     display:flex;
     width:100vw;
     position:fixed;
-    justify-content:space-between;
     align-items:center;
+    justify-content:center;
     margin:10px;
     font-size:14px;
+}
+
+.header__icon{
+    display:flex;
+    position:absolute;
+    left:0;
 }
 
 .header .header__icon>img{
@@ -24,8 +30,9 @@
 
 .header__menu__right{
     display:flex;
+    position:absolute;
+    right:0;
     margin-right:30px;
-    justfiy-content:flex-end;
 }
 
 .header__menu__right>p{
