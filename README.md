@@ -1,1 +1,3 @@
-# Tesla-clone  ddd
+# Tesla-clone
+
+skills : javascript , react
